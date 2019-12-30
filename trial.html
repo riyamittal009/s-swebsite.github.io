@@ -36,7 +36,7 @@ body, html {
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SCHEDULE</a>
+      <a href="#schedule" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SCHEDULE</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> SPONSOR</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT US</a>
     </div>
@@ -53,7 +53,7 @@ body, html {
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUTt</a>
   <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">SCHEDULE</a>
+  <a href="#schedule" onclick="w3_close()" class="w3-bar-item w3-button">SCHEDULE</a>
   <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">SPONSOR</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
 </nav>
@@ -190,14 +190,106 @@ body, html {
   </div>
 </div>
 
-<!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
+<!-- SCHEDULE Section -->
+<div class="w3-container" style="padding:128px 16px" id="schedule">
+  <h3 class="w3-center">SCHEDULE</h3>
 
-  <div class="w3-row-padding" style="margin-top:64px">
+  <style>
+<table align="center">
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1.5px solid #b2d6c0;
+  text-align: center;
+  padding: 5px;
+}
+
+  tr:nth-child(even) {
+    background-color: #FFFF80;
+}
+
+}
+  tr:nth-child(odd) {
+    background-color: #98FF98;
+}
+
+</style>
+
+
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Activity</th>
+    <th>Time</th>
+    <th>Activity</th>
+  </tr>
+  <tr>
+    <td>10:00AM</td>
+    <td>Check In</td>
+    <td>8:00PM</td>
+    <td>Guest Speaker/ Q&A Panel</td>
+  </tr>
+
+  <tr>
+  	<td>11:00AM</td>
+    <td>Opening Ceremony</td>
+    <td>9:00AM</td>
+    <td>Workshops</td>
+ </tr>
+
+ <tr>
+ 	<td>11:30AM</td>
+    <td>Form Teams</td>
+    <td>12:00AM</td>
+    <td>Midnight Snack/Activity</td>
+ </tr>
+
+ <tr>
+ 	<td>12:00PM</td>
+ 	<td>Lunch & Start Hacking! </td>
+ 	<td>8:00AM</td>
+ 	<td>Breakfast</td>
+ </tr>
+
+ <tr>
+ 	<td>1:00PM</td>
+    <td>Workshops</td>
+    <td>9:00AM</td>
+    <td>Project Submissions Due!</td>
+ </tr>
+
+ <tr>
+ 	<td>3:00PM</td>
+    <td>Small Snack</td>
+    <td>9:30AM</td>
+    <td>Presentations Start</td>
+ </tr>
+
+ <tr>
+ 	<td>3:30PM</td>
+    <td>Workshops</td>
+    <td>11:00AM</td>
+    <td>Awards</td>
+ </tr>
+
+ <tr>
+ 	<td>6:00PM</td>
+    <td>Dinner</td>
+    <td>12:00PM</td>
+    <td>Hackathons</td>
+ </tr>
+
+</table>
+
+  <!--<p class="w3-center w3-large">What we've done for people</p>-->
+<!--W33 SCHOOLS CODE for their WORK section
+<  <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="a randomthing">
     </div>
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
@@ -209,6 +301,9 @@ body, html {
       <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
     </div>
   </div>
+
+
+
 
   <div class="w3-row-padding w3-section">
     <div class="w3-col l3 m6">
@@ -225,8 +320,10 @@ body, html {
     </div>
   </div>
 </div>
+-->
 
-<!-- Modal for full size images on click-->
+
+<!-- Modal for full size images on click
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
@@ -234,6 +331,8 @@ body, html {
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
+-->
+
 
 <!-- Skills Section -->
 <div class="w3-container w3-light-grey w3-padding-64">
