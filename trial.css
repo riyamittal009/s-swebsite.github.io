@@ -260,6 +260,5 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-font-fantasy{font-family: Trattatello, fantasy}
 .w3-font-cursive{font-family: Mission Script, cursive}
 .w3-world{font-size: 27px}
-.w3-about-box{margin-left: 30px; margin-right: 30px; border-radius:10px;}
-.w3-about-bay-area{border-radius: 10px}
+.w3-about-box{margin-left: 30px; margin-right: 30px; border-radius:20px;}
 .w3-about-blurb{padding-left: 10px; padding-right: 10px; text-align:justify; text-justify: inter-word;}
