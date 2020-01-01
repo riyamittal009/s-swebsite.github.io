@@ -102,47 +102,37 @@ body, html {
   <h3 class="w3-center">FAQs</h3>
   <!--<p class="w3-center w3-large">Key features of our company</p>-->
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-faq" data-hover="All middle and high school students are welcome to attend.">
       <i class="fa fa-question w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Who can attend?</p>
-      <p>All middle and high school students are welcome to attend.</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-faq" data-hover="Attending the hackathon is free!">
       <i class="fa fa-money w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">How much does it cost?</p>
-      <p>Attending the hackathon is free!</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-faq" data-hover="You should bring a laptop and charger, as well as a sleeping bag, pillow, toiletries, and anything else you may need for the duration of the event.">
       <i class="fa fa-suitcase w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">What should I bring?</p>
-      <p>You should bring a laptop and charger, as well as a sleeping bag, pillow, toiletries, and anything else you may need for the duration of the event.</p>
     </div>
-    <div class="w3-quarter">
-      <button class="w3-faq" onclick=program();>
+    <div class="w3-quarter w3-faq" data-hover="Absolutely not! In fact, you definitely should come if you have no programming experience. Throughout the hackathon, industry professionals will host a wide variety of workshops that will take you through the process of developing a project start to finish.">
       <i class="fa fa-keyboard-o w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-faq w3-large">Do I need programming experience?</p>
-    </button>
-      <span id="programExperience"></span>
+      <p class="w3-large">Do I need programming experience?</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-faq" data-hover="Although the event is oriented towards females (non-binary and trans inclusive), all students in middle and high school are welcome to come, as long as they support #WomenInTech :)">
       <i class="fa fa-female w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Is the event girls-only?</p>
-      <p>Although the event is oriented towards females (non-binary and trans inclusive), all students in middle and high school are welcome to come, as long as they support #WomenInTech :)</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-faq" data-hover="Mentors will help you find a team at the start of the hackathon with other attendees. If you don’t know anyone before coming, don’t fret! There is plenty of opportunity to meet new people and make friends.">
       <i class="fa fa-users w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">How do I form a team?</p>
-      <p>Mentors will help you find a team at the start of the hackathon with other attendees. If you don’t know anyone before coming, don’t fret! There is plenty of opportunity to meet new people and make friends. </p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-faq" data-hover="Go to “Apply” in the upper right corner of the page and you can register to be an attendee or mentor.">
       <i class="fa fa-user-plus w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">How do I register as an attendee or mentor?</p>
-      <p>Go to “Apply” in the upper right corner of the page and you can register to be an attendee or mentor.</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-faq" data-hover="Unfortunately, no. You must start your project from scratch at the event to make the hackathon as fair as possible.">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Can I continue a previous project?</p>
-      <p>Unfortunately, no. You must start your project from scratch at the event to make the hackathon as fair as possible.</p>
     </div>
   </div>
 </div>
@@ -492,12 +482,6 @@ td, th {
 
 <script>
 // Modal Image Gallery
-function program()
-{
-  var x = document.getElementById("programExperience")
-  x.innerHTML = "Absolutely not! In fact, you definitely should come if you have no programming experience. Throughout the hackathon, industry professionals will host a wide variety of workshops that will take you through the process of developing a project start to finish.";
-  document.write(x.innerHTML);
-}
 
 function onClick(element) {
   document.getElementById("img01").src = element.src;
