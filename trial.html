@@ -117,9 +117,11 @@ body, html {
       <p>You should bring a laptop and charger, as well as a sleeping bag, pillow, toiletries, and anything else you may need for the duration of the event.</p>
     </div>
     <div class="w3-quarter">
+      <button class="w3-faq" onclick=program();>
       <i class="fa fa-keyboard-o w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Do I need programming experience?</p>
-      <p>Absolutely not! In fact, you definitely should come if you have no programming experience. Throughout the hackathon, industry professionals will host a wide variety of workshops that will take you through the process of developing a project start to finish.</p>
+      <p class="w3-faq w3-large">Do I need programming experience?</p>
+    </button>
+      <span id="programExperience"></span>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-female w3-margin-bottom w3-jumbo w3-center"></i>
@@ -489,6 +491,13 @@ td, th {
 
 <script>
 // Modal Image Gallery
+function program()
+{
+  var x = document.getElementById("programExperience")
+  x.innerHTML = "Absolutely not! In fact, you definitely should come if you have no programming experience. Throughout the hackathon, industry professionals will host a wide variety of workshops that will take you through the process of developing a project start to finish.";
+  document.write(x.innerHTML);
+}
+
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
