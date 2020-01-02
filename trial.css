@@ -267,12 +267,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-about-box{margin-left: 30px; margin-right: 30px; border-radius:20px;}
 .w3-about-blurb{padding-left: 10px; padding-right: 10px; text-align:justify; text-justify: inter-word;}
 .w3-faq{
-  border-style:dotted; background-color: white; height:375px;}
+  border-style:dotted; background-color: white; height:380px;}
 .w3-faq:hover::after{content: attr(data-hover);}
 .w3-icon-faq{padding:30px;}
 .w3-small-and-title{font-size:30px;}
 .w3-bay-area{font-weight:100px;}
 .w3-faq-row1{padding:10px; margin-bottom: 90px;}
 .w3-faq-row2{padding:10px;}
-.w3-faq-bg{background-image: url("mintsolid.jpeg")}
+.w3-faq-bg{background-image: url("mint green.jpg")}
 .w3-answer{text-align:justify; text-justify: inter-word;}
