@@ -21,6 +21,7 @@ body, html {
   background-size: cover;
   background-image: url("yellow gradient.jpeg");
   min-height: 100%;
+  min-width:100%;
 }
 
 .w3-bar .w3-button {
@@ -63,12 +64,12 @@ body, html {
 
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-center-header">
-  <div class="w3-display-left w3-text-blue" style="padding:48px">
+  <div style= "text-align: center;" class="w3-center-header">
+  <div class="w3-display-center w3-text-blue" style="padding-top:200px">
     <span align="center"><span class="w3-jumbo w3-hide-small w3-font-courier">&lt;script&gt;</span><span class="w3-hide-small w3-small-and-title"> &</span><span class=" w3-hide-small w3-font-cursive"> style</span><span class="w3-jumbo w3-hide-small"> Hacks</span></span><br>
     <!--<span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>-->
     <span class="w3-large">BY MISSION SAN JOSE HIGH SCHOOL'S GIRLS WHO CODE</span>
-    <p><a href="https://www.google.com/" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">ATTENDEE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.com/" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">MENTOR/JUDGE</a></p>
+    <p><a href="https://forms.gle/nr5CzQbmaSrY6k626" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">ATTENDEE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://forms.gle/5aiK5uBaZkd4Wtrm7" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">VOLUNTEER</a></p>
   </div>
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -146,7 +147,7 @@ body, html {
 </div>
 
 <!-- SCHEDULE Section -->
-<div class="w3-container" style="padding:80px 16px" id="schedule">
+<div class="w3-schedule-bg w3-container" style="padding:80px 16px" id="schedule">
   <h3 class="w3-center">SCHEDULE</h3>
 <link rel="stylesheet"
 href="https://fonts.googleapis.com/css?family=Tangerine">  <!--google api fonts collection-->
@@ -157,11 +158,13 @@ href="https://fonts.googleapis.com/css?family=Tangerine">  <!--google api fonts 
         text-shadow: 6px 5px 4px #FBE870;
       }
   </style>
-  <style>
+
+<style>
+
 <table align="center">
+
 table {
   font-family: "Impact", sans-serif;
-  width: 60%;
 }
 
 td, th {
@@ -182,7 +185,7 @@ td, th {
 </style>
 
 
-<table align="center">
+<table align="center" border="1 px" >
   <tr>
     <td>April 4</td>
     <td>10:00AM</td>
@@ -276,6 +279,8 @@ td, th {
   </div>
 </div>-->
 
+</div>
+
 
 <!-- Team Section -->
 <div class="w3-container" style="padding:80px 16px" id="team">
@@ -343,36 +348,21 @@ td, th {
       </div>
     </div>
      <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="saborni.jpg" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h3 align="center">Saborni Kundu</h3>
-          <p align="center" class="w3-opacity">Operations</p>
-          <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="ari.jpg" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h3 align="center">Arianna Yuan</h3>
-          <p align="center" class="w3-opacity">Design</p>
-          <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
-          </span>
-        </div>
-      </div>
-    </div>
+       <div class="w3-col l3 m6 w3-margin-bottom">
+         <div class="w3-card">
+           <img src="saborni wide.jpg" height="293px" width="290px" alt="John" style="width:100%">
+           <div class="w3-container">
+             <h3 align="center">Saborni Kundu</h3>
+             <p align="center" class="w3-opacity">Operations</p>
+             <span align="center">
+               <i class="fa fa-facebook-official w3-hover-opacity"></i>
+               <i class="fa fa-instagram w3-hover-opacity"></i>
+               <i class="fa fa-linkedin w3-hover-opacity"></i>
+               <i class="fa fa-envelope w3-hover-opacity"></i>
+             </span>
+           </div>
+         </div>
+       </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="ari.jpg" alt="Dan" style="width:100%">
@@ -388,21 +378,7 @@ td, th {
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="ari.jpg" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h3 align="center">Arianna Yuan</h3>
-          <p align="center" class="w3-opacity">Design</p>
-          <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
-          </span>
-        </div>
-      </div>
-    </div>
+
   </div>
 
   </div>
