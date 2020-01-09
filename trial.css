@@ -66,7 +66,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
 .w3-badge,.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%}
 .w3-ul{list-style-type:none;padding:0;margin:0}.w3-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.w3-ul li:last-child{border-bottom:none}
-.w3-tooltip,.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
+.w3-tooltip,.w3-display-container{position:relative; float: center}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
 .w3-ripple:active{opacity:0.5}.w3-ripple{transition:opacity 0s}
 .w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
 .w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
@@ -92,7 +92,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-responsive{display:block;overflow-x:auto}
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
 .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
-.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%;}
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%; padding: 5px}
 .w3-col.s1{width:8.33333%}.w3-col.s2{width:16.66666%}.w3-col.s3{width:24.99999%}.w3-col.s4{width:33.33333%}
 .w3-col.s5{width:41.66666%}.w3-col.s6{width:49.99999%}.w3-col.s7{width:58.33333%}.w3-col.s8{width:66.66666%}
 .w3-col.s9{width:74.99999%}.w3-col.s10{width:83.33333%}.w3-col.s11{width:91.66666%}.w3-col.s12{width:99.99999%}
@@ -115,7 +115,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 @media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
 .w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}
 .w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
-.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .
+,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
 @media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
 @media (min-width:993px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
 @media (max-width:992px) and (min-width:601px){.w3-hide-medium{display:none!important}}
@@ -267,7 +268,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-about-box{margin-left: 30px; margin-right: 30px; border-radius:20px;}
 .w3-about-blurb{padding-left: 10px; padding-right: 10px; text-align:justify; text-justify: inter-word;}
 .w3-faq{
-  border-style:solid; background-color: white; height:380px; border-color: #191970}
+  border-style:solid; background-color: white; height:400px; border-color: #191970 padding: 5px}
 .w3-faq:hover::after{content: attr(data-hover); text-align:justify; text-justify: inter-word;}
 .w3-icon-faq{padding:30px;}
 .w3-small-and-title{font-size:30px;}
@@ -275,4 +276,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-faq-row1{padding:10px; margin-bottom: 90px;}
 .w3-faq-row2{padding:10px;}
 .w3-faq-bg{background-image: url("mint green.jpg")}
-.w3-center-header{float: right;}
+.w3-center-header{float: center; width: auto;}
+.w3-schedule-bg{background-image: url("star 2.png");}
+.w3-center-lol{text-align: center;}
+.w3-table-border{border: 1px; border-color: #fcebea;}
+.w3-schedule-column{height: 100px; width: 400px;}
+.w3-title-font{font-family: "Bad Script";}
