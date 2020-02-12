@@ -1,6 +1,11 @@
 <!DOCTYPE html>
+
 <html>
-<title>Script & Style</title>
+<head>
+  <link rel="icon" href="zoomedinlogo.png">
+  <script src="trial.js"></script>
+</head>
+<title>Script & Style Hacks</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="trial.css">
@@ -19,7 +24,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("yellow gradient.jpeg");
+  background-image: url("yellow checker 3.png");
   min-height: 100%;
   min-width:100%;
 }
@@ -28,9 +33,10 @@ body, html {
   padding: 20px;
 }
 </style>
-<body>
+<body onload = "myFunction1000()">
 
 <!-- Navbar (sit on top) -->
+
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-wide"><img height="50px" width="50px" src="ss logo square.jpg"></a>
@@ -38,7 +44,7 @@ body, html {
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#faq" class="w3-bar-item w3-button">FAQ</a>
-      <a href="#schedule" class="w3-bar-item w3-button">SCHEDULE</a>
+      <!--<a href="#schedule" class="w3-bar-item w3-button">SCHEDULE</a>-->
       <a href="#team" class="w3-bar-item w3-button">TEAM</a>
       <a href="#sponsor" class="w3-bar-item w3-button">SPONSORS</a>
       <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
@@ -56,7 +62,7 @@ body, html {
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#faq" onclick="w3_close()" class="w3-bar-item w3-button">FAQS</a>
-  <a href="#schedule" onclick="w3_close()" class="w3-bar-item w3-button">SCHEDULE</a>
+  <!--<a href="#schedule" onclick="w3_close()" class="w3-bar-item w3-button">SCHEDULE</a>-->
   <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
   <a href="#sponsor" onclick="w3_close()" class="w3-bar-item w3-button">SPONSORS</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
@@ -66,30 +72,44 @@ body, html {
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div style= "text-align: center;" class="w3-center-header">
   <div class="w3-display-center w3-text-blue" style="padding-top:200px">
-    <span align="center"><span class="w3-jumbo w3-hide-small w3-font-courier">&lt;script&gt;</span><span class="w3-hide-small w3-small-and-title"> &</span><span class=" w3-hide-small w3-font-cursive"> style</span><span class="w3-jumbo w3-hide-small"> Hacks</span></span><br>
+   <span align="center"><span class="w3-jumbo w3-hide-small w3-font-courier">&lt;script&gt;</span><span class="w3-hide-small w3-small-and-title"> &</span><span class=" w3-hide-small w3-font-cursive"> style</span><span class="w3-jumbo w3-hide-small"> Hacks</span></span><br>
     <!--<span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>-->
-    <span class="w3-large">BY MISSION SAN JOSE HIGH SCHOOL'S GIRLS WHO CODE</span>
+    <span class="who w3-large">BY MISSION SAN JOSE HIGH SCHOOL'S GIRLS WHO CODE</span>
     <p><a href="https://forms.gle/nr5CzQbmaSrY6k626" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">ATTENDEE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://forms.gle/5aiK5uBaZkd4Wtrm7" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">VOLUNTEER</a></p><br>
-    <!--<p>Make School SF | April 4 - April 5, 2020</p>-->
+    <p>Mission San Jose High School | May 16, 2020 | 8 AM - 10 PM</p>
+
   </div>
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div></div>
+
+</div>
 </header>
 
 <!-- About Section -->
-<div class="w3-container w3-light-grey" style="padding:70px 16px" id="about">
-  <h3 class="w3-center">ABOUT</h3>
-
-
+<div class="w3-container w3-black" style="padding:100px 16px" id="about">
+  <h3 class="w3-center">about</h3>
   <div class="w3-row-padding w3-center" style="margin-top:10px">
-        <h1 class="w3-world">BAY AREA'S BIGGEST BEGINNER-ORIENTED HACKATHON</h1>
-      <div class="w3-baby-pink w3-xlarge w3-padding-12 w3-about-box">
+        <!--<h1 class="w3-world">BAY AREA'S BIGGEST BEGINNER-ORIENTED HACKATHON</h1>-->
+      <div class="w3-third w3-margin-top w3-animate-top">
+        <div class="aboutCircle1">
+          <div class="about-circle-title">WORKSHOP-ORIENTED</div>
+          <div class="aboutContent">Attendees have the opportunity to attend a variety of workshops where industry professionals and mentors will guide them through developing their project from start to finish. </div>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-top w3-animate-top">
+        <div class="aboutCircle2">
+          <div class="about-circle-title">50-50 GENDER RATIO</div>
+          <div class="aboutContent">We strive to create a safe and inclusive environment for
+          young students to learn important technical skills and promote gender equality in tech by establishing a near 50-50 ratio of female and male
+          attendees. </div>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-top w3-animate-top">
+        <div class="aboutCircle3">
+          <div class="about-circle-title">SWAG, PRIZES, AND MORE</div>
+          <div class="aboutContent">Come to Script & Style Hacks to get cool swag, win amazing prizes, learn valuable programming skills, and help push forward the mission of Girls Who Code.</div>
+        </div>
+      </div>
+
+      <!--<div class="w3-white w3-xlarge w3-padding-12 w3-about-box"><br>
       <p class="w3-about-blurb">Script & Style Hacks is a 24-hour, beginner-oriented hackathon
         that is open to all middle school and high school students of all levels. Its goal is to create a safe and inclusive environment for
         young students to learn technical skills and promote gender equality in tech by establishing a near 50-50 ratio of female and male
@@ -98,20 +118,19 @@ body, html {
         will win fun prizes for their hard work and creativity that is shown through their project. Script & Style Hacks is dedicated to pushing
         the mission of Girls Who Code Inc. forward - closing the gender gap in tech and promoting Girls Who Code's core values - bravery,
         girls-first leadership, quality and candor.
-        <!--<ul>
+        <ul>
           <li>Script & Style Hacks is a 24-hour, beginner-oriented hackathon</li>
           <li>open to all middle school and high school students of all levels</li>
           <li></li>
-        </ul>--></p></div>
+        </ul></p></div>-->
 
 
 </div>
 </div>
 
 <!-- FAQs Section -->
-<div class="w3-container w3-faq-bg" style="padding:80px 16px" id="faq">
+<!--<div class="w3-container w3-faq-bg" style="padding:80px 16px" id="faq">
   <h3 class="w3-center">FAQs</h3>
-  <!--<p class="w3-center w3-large">Key features of our company</p>-->
   <div class="w3-row-padding w3-center" style="margin-top:64px">
 
     <div class="w3-faq-row1">
@@ -152,19 +171,104 @@ body, html {
 </div>
 
   </div>
+</div>-->
+
+<!-- FAQs Section-->
+<div class="w3-container w3-faq-bg" style="padding: 100px 50px" id="faq">
+  <center>
+    <h3 class="w3-center">faq</h3>
+  </center>
+  <center>
+  <div class="faqs">
+    <div class ="rows">
+      <div class="column1">
+
+        <button  class="accordion">Who can attend?</button>
+        <div class="panel">
+          <p>All middle school and high school students are welcome to attend.</p>
+        </div>
+        <div class="space"> </div>
+
+        <button class="accordion">How much does it cost?</button>
+        <div class="panel">
+          <p>There is a $5 registration fee.</p>
+        </div>
+        <div class="space"> </div>
+
+
+        <button class="accordion">Is this an all-female hackathon?</button>
+        <div class="panel">
+          <p>Nope! S&S Hacks is open to everyone, regardless of gender.</p>
+        </div>
+        <div class="space"> </div>
+        <button class="accordion">Can I continue a previous project?</button>
+        <div class="panel">
+          <p>For fairness reasons, we would like everyone to start their project from scratch after they have formed their team.</p>
+        </div>
+        <div class="space"> </div>
+      </div>
+      <div class= "column2">
+        <button class="accordion">What should I bring?</button>
+        <div class="panel">
+          <p>All you need is a laptop and charger! :)</p>
+        </div>
+        <div class="space"> </div>
+        <button class="accordion">How do I form a team?</button>
+        <div class="panel">
+          <p>Mentors will help you find a team at the start of the hackathon with other attendees. If you don’t know anyone before coming, no worries! There is plenty of opportunity to meet new people and make friends.</p>
+        </div>
+        <div class="space"> </div>
+        <button class="accordion">Why should I come?</button>
+        <div class="panel">
+          <p>S&S Hacks is fully committed to 1) closing the gender gap in tech by actively working to have a 50-50 ratio of male and female attendees, and 2) creating a space for beginners to feel comfortable and confident while exploring their interests in tech.</p>
+        </div>
+        <div class="space"> </div>
+        <button class="accordion">Do I need programming experience?</button>
+        <div class="panel">
+          <p>Definitely not. In fact, the less you know, the better! Throughout the event, there will be a wide variety of workshops that will take you through the process of developing a project from scratch.</p>
+        </div>
+        <div class="space"> </div>
+      </div>
+    </div>
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+        </script>
+
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 
-<!-- SCHEDULE Section -->
-<div class="w3-schedule-bg w3-container" style="padding:80px 16px" id="schedule">
+<!-- SCHEDULE Section
+<div class="w3-container schedulebg" style="padding:100px 16px" id="schedule">
   <h3 class="w3-center">SCHEDULE</h3>
+  <div class="comingSoon" align="center">Coming soon! Stay tuned :)</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <link rel="stylesheet"
-href="https://fonts.googleapis.com/css?family=Tangerine">  <!--google api fonts collection-->
+href="https://fonts.googleapis.com/css?family=Tangerine">  <!--google api fonts collection -->
   <style>
       h3 {
-        font-family: 'Times', sans-serif;
+        font-family: "Solway", sans-serif;
         font-size: 48px;
         text-shadow: 6px 5px 4px #FBE870;
       }
+
+      .comingSoon{
+        font-size:30px;
+        vertical-align: middle;
+      }
+
   </style>
 
 <style>
@@ -190,93 +294,74 @@ td, th {
 }
 
   tr:nth-child(even){
-<<<<<<< HEAD
     background-color: #fcebea;
-=======
     background-color: #FBE870;
     color: grey;
->>>>>>> 65dd42305144e0aee15c3b72e10af61d52b67b1c
+}
+
+.columnhi {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-left: 50px;
+  height: 670px; /* Should be removed. Only for demonstration */
+  border-right: solid black 2px;
+}
+
+.columnhello {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-left: 50px;
+  height: 670px; /* Should be removed. Only for demonstration */
+}
+
+.column{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 550px; /* Should be removed. Only for demonstration */
+}
+
+.columnTitle {
+  font-size:40px;
+}
+
+.columnText {
+  font-size:20px;
 }
 
 
 </style>
+<!--<br><br>-->
+<!--<div class="columnhi" style="background-color:#fff;">
+    <h2 class="columnTitle" align="center">Saturday</h2>
+    <div class="columnText">
+    <p>10:00 AM: Check In</p>
+    <p>11:00 AM: Opening Ceremony</p>
+    <p>11:30 AM: Form Teams</p>
+    <p>12:00 PM: Lunch & Start Hacking!</p>
+    <p>1:00 PM: Workshops</p>
+    <p>3:00 PM: Snack</p>
+    <p>3:30 PM: Workshops</p>
+    <p>6:00 PM: Dinner</p>
+    <p>8:00 PM: Guest Speaker/ Q&A Panel</p>
+    <p>9:00 PM: Workshops</p>
+  </div>
+  </div>
 
+  <div class="columnhello" style="background-color:#fff;">
+    <h2 class="columnTitle" align="center">Sunday</h2>
+    <div class="columnText">
+    <p>12:00 AM: Midnight Snack/ Activity</p>
+    <p>8:00 AM: Breakfast</p>
+    <p>9:00 AM: Project Submissions Due!</p>
+    <p>9:30 AM: Judging Begins</p>
+    <p>11:00 AM: Awards</p>
+    <p>12:00 PM: Hackathon Ends</p>
+</div>
+</div>-->
 
-<table align="center">
-
-  <tr>
-    <td>April 4</td>
-    <td>10:00AM</td>
-    <td>Check In</td>
-    <td>April 4</td>
-    <td>8:00PM</td>
-    <td>Guest Speaker/ Q&A Panel</td>
-  </tr>
-
-  <tr>
-    <td>April 4</td>
-  	<td>11:00AM</td>
-    <td>Opening Ceremony</td>
-    <td>April 4</td>
-    <td>9:00PM</td>
-    <td>Workshops</td>
- </tr>
-
- <tr>
-   <td>April 4</td>
- 	 <td>11:30AM</td>
-    <td>Form Teams</td>
-    <td>April 5</td>
-    <td>12:00AM</td>
-    <td>Midnight Snack/Activity</td>
- </tr>
-
- <tr>
-   <td>April 4</td>
- 	<td>12:00PM</td>
- 	<td>Lunch & Start Hacking! </td>
-  <td>April 5</td>
- 	<td>8:00AM</td>
- 	<td>Breakfast</td>
- </tr>
-
- <tr>
-   <td>April 4</td>
- 	 <td>1:00PM</td>
-    <td>Workshops</td>
-    <td>April 5</td>
-    <td>9:00AM</td>
-    <td>Project Submissions Due!</td>
- </tr>
-
- <tr>
-   <td>April 4</td>
- 	  <td>3:00PM</td>
-    <td>Small Snack</td>
-    <td>April 5</td>
-    <td>9:30AM</td>
-    <td>Presentations Start</td>
- </tr>
-
- <tr>
-   <td>April 4</td>
- 	<td>3:30PM</td>
-    <td>Workshops</td>
-    <td>April 5</td>
-    <td>11:00AM</td>
-    <td>Awards</td>
- </tr>
-
- <tr>
-   <td>April 4</td>
- 	<td>6:00PM</td>
-    <td>Dinner</td>
-     <td>April 5</td>
-    <td>12:00PM</td>
-    <td>Hackathon Ends</td>
- </tr>
-
-</table>
 
 
 <!--<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
@@ -296,158 +381,108 @@ td, th {
     <span class="w3-xxlarge">150+</span>
     <br>Meetings
   </div>
-</div>-->
+</div> -->
 
+</div>
 </div>
 
 
 <!-- Team Section -->
-<div class="w3-container" style="padding:80px 16px" id="team">
-  <h3 class="w3-center">THE TEAM</h3>
-  <img height="850px" width="1370px" src="yearbook photo.jpg">
+<div class="w3-containe w3-light-grey" style="padding:100px 16px" id="team">
+  <h3 class="w3-center">team</h3>
+  <img height="900px" width="1410px" src="yearbook photo.jpg">
   <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-white">
       <div class="w3-card">
         <img src="riya close square.JPG" alt="John" style="width:100%">
         <div class="w3-container">
-          <h3 align="center">Riya Mittal</h3>
-          <p align="center" class="w3-opacity">Director</p>
+          <h3 class="names" align="center">Riya Mittal</h3>
+          <p align="center" class="w3-font-team w3-opacity">Lead Director</p>
           <span align="center">
             <a href="https://www.facebook.com/riya.mittal.1614460"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
             <a href="https://www.instagram.com/riyamitttal/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
             <a href="https://www.linkedin.com/in/riya-mittal-0244b4187/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-            <a href="mailto:riyamittal009@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+            <a href="mailto:riya@sshacks.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
           </span>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-white">
       <div class="w3-card">
         <img src="yuks close square.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3 align="center">Yukati Gupta</h3>
-          <p align="center" class="w3-opacity">Sponsorships</p>
+          <h3 class="names" align="center">Yukati Gupta</h3>
+          <p align="center" class="w3-font-team w3-opacity">Sponsorships Director</p>
           <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
+            <a href="https://www.facebook.com/profile.php?id=100013086706296"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/yukati-gupta-648645185/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="mailto:yukati@sshacks.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
           </span>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-white">
       <div class="w3-card">
         <img src="anika.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
-          <h3 align="center">Anika Arora</h3>
-          <p align="center" class="w3-opacity">Outreach</p>
+          <h3 class="names" align="center">Anika Arora</h3>
+          <p align="center" class="w3-font-team w3-opacity">Outreach Director</p>
           <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
+            <a href="https://www.facebook.com/anika.arora.146"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/anikaa.24/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="mailto:anika@sshacks.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
           </span>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-white">
       <div class="w3-card">
         <img src="katessss.jpg" alt="Dan" style="width:100%">
         <div class="w3-container">
-          <h3 align="center">Katy Lee</h3>
-          <p align="center" class="w3-opacity">Logistics</p>
+          <h3 class="names" align="center">Katy Lee</h3>
+          <p align="center" class="w3-font-team w3-opacity">Logistics Director</p>
           <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
+            <a href="https://www.facebook.com/katester35"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/kathrynannelee/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/kathryn-anne-lee/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="mailto:katy@sshacks.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
           </span>
         </div>
       </div>
     </div>
   </div>
      <div class="w3-row-padding" style="margin-top:64px">
-<<<<<<< HEAD
-       <div class="w3-col l3 m6 w3-margin-bottom">
+       <div class="w3-col l3 m6 w3-margin-bottom w3-white">
          <div class="w3-card">
            <img src="saborni wide.jpg" height="302px" width="290px" alt="John" style="width:100%">
            <div class="w3-container">
-             <h3 align="center">Saborni Kundu</h3>
-             <p align="center" class="w3-opacity">Operations</p>
+             <h3 class="names" align="center">Saborni Kundu</h3>
+             <p align="center" class=" w3-font-team w3-opacity">Operations</p>
              <span align="center">
-               <i class="fa fa-facebook-official w3-hover-opacity"></i>
-               <i class="fa fa-instagram w3-hover-opacity"></i>
-               <i class="fa fa-linkedin w3-hover-opacity"></i>
-               <i class="fa fa-envelope w3-hover-opacity"></i>
+               <a href="https://www.facebook.com/saborni.kundu.31"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+               <a href="https://www.instagram.com/sabornikundu/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+               <a href="mailto:saborni@sshacks.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
              </span>
            </div>
          </div>
        </div>
-=======
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="saborni.jpg" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h2 align="center">Saborni Kundu</h2>
-          <p align="center" class="w3-opacity">Operations</p>
-          <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-white">
       <div class="w3-card">
         <img src="ari.jpg" alt="Dan" style="width:100%">
         <div class="w3-container">
-
-          <h3 align="center">Arianna Yuan</h3>
-          <p align="center" class="w3-opacity">Design</p>
+          <h3 class="names" align="center">Arianna Yuan</h3>
+          <p align="center" class="w3-font-team w3-opacity">Design</p>
           <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
+            <a href="https://www.facebook.com/ari.yuan.524"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/ariannaa_y/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/arianna-yuan-b5aab7190/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="mailto:yuan.arianna@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
           </span>
 
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="ari.jpg" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h3 align="center">Arianna Yuan</h3>
-          <p align="center" class="w3-opacity">Design</p>
-          <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
-          </span>
-        </div>
-      </div>
-    </div>
->>>>>>> 65dd42305144e0aee15c3b72e10af61d52b67b1c
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="ari.jpg" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h3 align="center">Arianna Yuan</h3>
-          <p align="center" class="w3-opacity">Design</p>
-          <span align="center">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <i class="fa fa-envelope w3-hover-opacity"></i>
-          </span>
-        </div>
-      </div>
-    </div>
+
 
   </div>
 
@@ -533,10 +568,23 @@ td, th {
 </div>-->
 
 <!-- Sponsors Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:80px 16px" id="sponsor">
-  <h3>OUR SPONSORS</h3>
-<<<<<<< HEAD
-  <p class="w3-large">Interested in being a sponsor for Script & Style Hacks? Email us at msjgwc@gmail.com!</p>
+<div class="schedulebg w3-container w3-center" style="padding:100px 16px" id="sponsor">
+  <h3>sponsors</h3><br>
+  <p class="w3-large">Interested in being a sponsor for Script & Style Hacks? Email us at info@sshacks.com!</p>
+  <a href="https://mail-attachment.googleusercontent.com/attachment/u/3/?ui=2&ik=c133db5cd6&attid=0.1&permmsgid=msg-a:r-6995092755748932680&th=1702803ebb6d81a2&view=att&disp=inline&realattid=f_k6eh81g40&saddbat=ANGjdJ9_9wCDt-EsTJ_yJXfiI3TnrSiy8vqxkB-UyWYJCmTghLESqvQU6maG_xkvmspVYroirBb4dVSwc_RJFLA9EF9KV5cdeTkTsPK_YjL6F9a8sY6pnSWZAiSlSb37E89H4JJowxvHlk6wLosF8U-_-aQbXJXOrGDWxLtHQag_uXeVX3UrXJz7CamvN8KGbNTxw3nTxjq94POQKHh6-cf459nlHvafZ80VJ7e_cju5Chus3YoYt1ed0832q5u3zZOxjmdgX97CEj3IWpZxGHpBp0vwvUHx6VdlCCBS_3htElTJgfjNu3J5XIG9YwiHHMAQy3jLEmSKXeyhwEZDab2YpktEGvyV2tEoChbGaABhNkHx8eWW6yV0YWwzTgEg6TSobbSONRaOzsFaHb7E5aNs0WJXPPUchaGNXIRgzKrsFg7u0tqbLOUz3m9SJNr6mfS0xTcd7y7gpaSCRsRsmP_hqfvg_Kq0OE12N1AltjVx4SvflBTjWr-lJDmFFRNOZldFNYNjyXjFfO1wFjFxBsylFSz_ETgj0ttHoiwY24boc5E64ai8m0dLT844CdHpL8ffJGyIkEBdhRj5ewGK64BVoO_32kOLUCzZ8x2a6jcDUVQ2nqH9e1JuAW9TvvpjFZ9SQtowK33DME0gz4m304JsK_GremF3kUCdMReuC2GUAhjzoM3UzM356aIqOUo" class="lol w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">SPONSORSHIP PROSPECTUS</a>
+  <br> <br> <br>
+  <div class="sponsor">
+    <center>
+      <div class="w3-quarter"><img src="hack+ logo.svg" height= "100vw" width= "175 vw"></div>
+      <div class="w3-quarter hyperx"><img src="hyperx logo 2.png" height= "75vw" width= "307.5 vw"></div>
+      <div class="w3-quarter"><img src="shawee logo 2.png" height= "108vw" width= "228 vw"></div>
+      <div class="w3-quarter"><img src="thinkboardlogo.png" height="113.25" width="180vw"></div>
+      <div class="w3-quarter bugsee"><img src="Bugsee-Logo.svg" height="150vw" width="150vw"></div>
+      <div class="w3-quarter desmos"><img src="desmos.png" height="45.1vw" width="207.8vw"></div>
+    </center>
+  </div>
+</div>
+  <!--<br><br><a href="file:///Users/riyamittal/Desktop/Script%20&%20Style%20Hacks%20Sponsorship%20Prospectus.pdf"><button>Sponsorship Prospectus</button></a>-->
   <!--<div class="w3-row-padding" style="margin-top:64px">
 =======
   <p class="w3-large">Choose a pricing plan that fits your needs.</p>
@@ -591,13 +639,12 @@ td, th {
       </ul>
     </div>
   </div>-->
-</div>
+
 
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:80px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-<<<<<<< HEAD
-  <p class="w3-center w3-large">If you have any additional questions, email us at msjgwc@gmail.com!</p>
+<div class="w3-container w3-light-grey" style="padding:100px 16px" id="contact">
+  <h3 class="w3-center">contact</h3>
+  <p class="w3-center w3-large">If you have any additional questions, email us at info@sshacks.com!</p>
   <!--<div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Fremont, US</p>
 =======
@@ -631,7 +678,7 @@ td, th {
     <!-- Image of location/map
     <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">-->
   </div>
-</div>
+
 
 <!-- Footer -->
 <footer class="w3-center w3-white w3-padding-64">
@@ -639,10 +686,6 @@ td, th {
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
   <p title="W3.CSS" target="_blank" class="w3-hover-text-green">Copyright © Script & Style Hacks. All rights reserved.</p>
 </footer>

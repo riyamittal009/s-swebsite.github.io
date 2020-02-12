@@ -66,7 +66,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
 .w3-badge,.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%}
 .w3-ul{list-style-type:none;padding:0;margin:0}.w3-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.w3-ul li:last-child{border-bottom:none}
-.w3-tooltip,.w3-display-container{position:relative; float: center}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
+.w3-tooltip,.w3-display-container{position:relative; height: 100%; float: center}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
 .w3-ripple:active{opacity:0.5}.w3-ripple{transition:opacity 0s}
 .w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
 .w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
@@ -135,7 +135,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-circle{border-radius:50%}
 .w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 5px}
-.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-container{vertical-align: middle},.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
 .w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
 .w3-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
 .w3-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
@@ -156,15 +156,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-greyscale,.w3-grayscale{filter:grayscale(75%)}.w3-greyscale-min,.w3-grayscale-min{filter:grayscale(50%)}
 .w3-sepia{filter:sepia(75%)}.w3-sepia-max,.w3-hover-sepia:hover{filter:sepia(100%)}.w3-sepia-min{filter:sepia(50%)}
 .w3-tiny{font-size:10px!important}.w3-small{font-size:12px!important}.w3-medium{font-size:15px!important}.w3-large{font-size:18px;!important}
-.w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
-.w3-left-align{text-align:left!important}.w3-right-align{text-align:right!important}.w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
+.w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:80px!important}
+.w3-left-align{text-align:left!important}.w3-right-align{text-align:right!important}.w3-justify{text-align:justify!important}.w3-center{ text-align:center}
 .w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
 .w3-border-top{border-top:1px solid #ccc!important}.w3-border-bottom{border-bottom:1px solid #ccc!important}
 .w3-border-left{border-left:1px solid #ccc!important}.w3-border-right{border-right:1px solid #ccc!important}
 .w3-topbar{border-top:6px solid #ccc!important}.w3-bottombar{border-bottom:6px solid #ccc!important}
 .w3-leftbar{border-left:6px solid #ccc!important}.w3-rightbar{border-right:6px solid #ccc!important}
 .w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
-.w3-margin{margin:16px!important}.w3-margin-top{margin-top:16px!important}.w3-margin-bottom{margin-bottom:16px!important}
+.w3-margin{margin:16px!important}.w3-margin-top{margin-top:25px!important}.w3-margin-bottom{margin-bottom:16px!important}
 .w3-margin-left{margin-left:16px!important}.w3-margin-right{margin-right:16px!important}
 .w3-padding-small{padding:4px 8px!important}.w3-padding{padding:8px 16px!important}.w3-padding-large{padding:12px 24px!important}
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
@@ -175,6 +175,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
+.w3-navy,.w3-hover-navy:hover{color:#000!important;background-color:#003366!important}
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
@@ -263,7 +264,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 .w3-font-courier{font-family: courier}
 .w3-font-fantasy{font-family: Trattatello, fantasy}
-.w3-font-cursive{font-family: "Sacramento", sans-serif; font-size: 90px;}
+.w3-font-cursive{font-family: "Sacramento", sans-serif; font-size: 110px;}
 .w3-world{font-size: 27px; font-weight:bold;}
 .w3-about-box{margin-left: 30px; margin-right: 30px; border-radius:20px;}
 .w3-about-blurb{padding-left: 10px; padding-right: 10px; text-align:justify; text-justify: inter-word;}
@@ -271,14 +272,163 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   border-style:solid; background-color: white; height:400px; border-color: #191970 padding: 5px}
 .w3-faq:hover::after{content: attr(data-hover); text-align:justify; text-justify: inter-word;}
 .w3-icon-faq{padding:30px;}
-.w3-small-and-title{font-size:30px;}
+.w3-small-and-title{font-size:50px;}
 .w3-bay-area{font-weight:100px;}
 .w3-faq-row1{padding:10px; margin-bottom: 90px;}
 .w3-faq-row2{padding:10px;}
-.w3-faq-bg{background-image: url("mint green.jpg")}
+.w3-faq-bg{background-image: url("mint green.jpg");}
 .w3-center-header{float: center; width: auto;}
-.w3-schedule-bg{background-image: url("star 2.png");}
+.w3-schedule-bg{background-image: url("try.png");}
 .w3-center-lol{text-align: center;}
 .w3-table-border{border: 1px; border-color: #fcebea;}
 .w3-schedule-column{height: 100px; width: 400px;}
 .w3-title-font{font-family: "Bad Script";}
+.comingSoon{vertical-align: middle;}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: .7s;
+  font-size: 16px;
+  height: 80px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #fff;
+}
+.space{
+  padding: 2px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.row {
+  display: flex;
+}
+
+.column1 {
+  float: left;
+  width:50%;
+  padding: 2px;
+}
+.column2 {
+  float: right;
+  width:50%;
+  padding: 2px;
+}
+
+.faqs {
+  margin: 3%;
+  font-size: 16px;
+  text-align: left;
+}
+.faqstext {
+  padding: 1%;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 16px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.w3-font-team{
+  font-size:20px;
+}
+
+.aboutCircle1{
+  height: 450px;
+  border-radius: 50%;
+  border: solid #e5ffec 2px;
+}
+
+.aboutCircle2{
+  height: 450px;
+  border-radius: 50%;
+  border: solid #ffffd5 2px;
+}
+
+.aboutCircle3{
+  height: 450px;
+  border-radius: 50%;
+  border: solid #cdebf9 2px;
+}
+
+.about-circle-title{
+  padding-top: 100px;
+  font-size:25px;
+}
+
+.aboutContent{
+  font-size:18px;
+  padding-top:40px;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.sponsor{
+  flex-direction:column;
+
+}
+.rowone {
+
+}
+
+.sponsorbg{
+  background-image: url("yellow checker 3.png");
+}
+
+.schedulebg{
+  background-image: url("schedule ari.png");
+}
+
+.hyperx{
+  padding-top: 35px;
+}
+
+.bugsee{
+  padding-right: 35px;
+}
+
+.desmos{
+  padding-top: 60px;
+  padding-right: 25px;
+}
+
+.who{
+  font-size: 20px;
+}
+
+.title{
+  font-size: 60px;
+}
+.prospecc {
+  background-color:	#D8D8D8;
+}
+
+.lol{
+  border-radius: 50%;
+}
+
+.names{
+  font-family: "Solway", sans-serif;
+  font-size:40px;
+  text-shadow: 6px 5px 4px #ffc4cd;
+}
